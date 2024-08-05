@@ -11,6 +11,7 @@ export default class Contacts extends LightningElement {
   }
 
   get contactsToDisplay() {
+    // Mock returning the right page data.
     const startIndex = this.currentPage - 1;
     return CONTACTS_SAMPLE_DATA.slice(
       startIndex,
@@ -20,5 +21,6 @@ export default class Contacts extends LightningElement {
 
   handlePageNumberChanged(event) {
     this.currentPage = event.detail;
+    // Simulate the server-side call to get the relevant data according to the new selected page.
   }
 }
