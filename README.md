@@ -59,6 +59,7 @@ Available public Properties are described in the table below
 
 - contacts (LWC) is an example of usage of the pagination component. The idea is to simulate displaying a large number of contacts, and handle all the navigation interactions with the pagination solution.
 - In this example, we're mocking the server-side call to get the relevant page data.
+- The pagination master component is used as child, where we pass all the indicators needed as well as handle the page number changes.
 
 ## Getting Started
 
