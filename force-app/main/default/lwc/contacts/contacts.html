@@ -1,0 +1,22 @@
+<template>
+  <lightning-card title="Contacts">
+    <div class="slds-grid slds-wrap slds-gutters">
+      <template for:each={contactsToDisplay} for:item="contact">
+        <div
+          key={contact.email}
+          class="slds-col slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-3 slds-var-p-around_medium slds-var-m-vertical_small"
+        >
+          <div class="slds-text-align_center">
+            <h3 class="slds-text-heading_medium">{contact.name}</h3>
+            <p>
+              <span class="slds-text-title_bold">{contact.title}</span>
+            </p>
+            <p class="slds-var-p-around_medium">{contact.description}</p>
+          </div>
+        </div>
+      </template>
+    </div>
+
+    <c-pagination-master is-progressive total-pages={totalPages} current-page={currentPage} onpagenumberchanged={handlePageNumberChanged}> </c-pagination-master>
+  </lightning-card>
+</template>

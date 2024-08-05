@@ -1,0 +1,15 @@
+<template>
+    <template if:true={showPagination}>
+        <ul class="slds-button-group-row slds-align_absolute-center">
+          <template if:true={hasPrevious}>
+              <c-pagination-item is-previous previous-icon="utility:chevronleft" hide-navigation-button-border onclick={goToPrevious}>
+              </c-pagination-item>
+          </template>
+          <span>{pageNumberFormat}</span>
+          <template if:true={hasNext}>
+              <c-pagination-item is-next next-icon="utility:chevronright" hide-navigation-button-border onclick={goToNext}>
+              </c-pagination-item>
+          </template>
+        </ul>
+    </template>
+</template>

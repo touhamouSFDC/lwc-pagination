@@ -1,0 +1,34 @@
+<template>
+  <template if:true={showPagination}>
+    <ul class="slds-button-group-row slds-align_absolute-center">
+      <c-pagination-item
+        lwc:if={hasPrevious}
+        is-previous
+        previous-icon="utility:back"
+        show-navigation-button-label
+        onclick={goToPrevious}
+      >
+      </c-pagination-item>
+
+      <template for:each={pagesNumbers} for:item="pageNumber">
+        <c-pagination-item
+          key={pageNumber}
+          page-number={pageNumber}
+          data-page-number={pageNumber}
+          onclick={goToPage}
+          current-page-number={currentPage}
+        >
+        </c-pagination-item>
+      </template>
+
+      <c-pagination-item
+        lwc:if={hasNext}
+        is-next
+        next-icon="utility:forward"
+        show-navigation-button-label
+        onclick={goToNext}
+      >
+      </c-pagination-item>
+    </ul>
+  </template>
+</template>
