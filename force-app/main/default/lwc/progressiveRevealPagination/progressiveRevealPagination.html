@@ -1,0 +1,29 @@
+<template>
+    <template if:true={showPagination}>
+      <ul class="slds-button-group-row slds-align_absolute-center">
+
+        <template if:true={hasPrevious}>
+            <c-pagination-item is-previous previous-icon="utility:chevronleft" hide-navigation-button-border onclick={goToPrevious}>
+            </c-pagination-item>
+        </template>
+        <template if:true={showFirst}>
+            <c-pagination-item page-number='...' onclick={goToFirst}>
+            </c-pagination-item>
+        </template>
+        <template for:each={pagesNumbers} for:item="pageNumber">
+            <c-pagination-item key={pageNumber} page-number={pageNumber} data-page-number={pageNumber}
+                onclick={goToPage} current-page-number={currentPage}>
+            </c-pagination-item>
+        </template>
+        <template if:true={showLast}>
+            <c-pagination-item page-number='...' onclick={goToLast}>
+            </c-pagination-item>
+        </template>
+        <template if:true={hasNext}>
+            <c-pagination-item is-next next-icon="utility:chevronright" hide-navigation-button-border onclick={goToNext}>
+            </c-pagination-item>
+        </template>
+        
+      </ul>
+    </template>
+  </template>

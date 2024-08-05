@@ -1,0 +1,39 @@
+.pagination-item {
+    min-width: 2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .25rem;
+    cursor: pointer;
+}
+
+.selected-item {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.navigation-item {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.no-border {
+    border: 0;
+}
+
+.truncation {
+    cursor: default;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation-label {
+      display: none;
+    }
+}

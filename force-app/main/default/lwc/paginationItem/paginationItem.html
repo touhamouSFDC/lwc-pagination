@@ -1,0 +1,32 @@
+<template>
+  <div class={pageDynamicStyle}>
+    <div lwc:if={isPrevious}>
+      <lightning-icon
+        class="icon"
+        icon-name={previousIcon}
+        size="x-small"
+      ></lightning-icon>
+      <span
+        lwc:if={showNavigationButtonLabel}
+        class="slds-var-m-left_x-small slds-text-title_bold navigation-label"
+        >Previous</span
+      >
+    </div>
+
+    <div lwc:if={isNext}>
+      <span
+        lwc:if={showNavigationButtonLabel}
+        class="slds-var-m-right_x-small slds-text-title_bold navigation-label"
+        >Next</span
+      >
+      <lightning-icon
+        class="icon"
+        icon-name={nextIcon}
+        size="x-small"
+      ></lightning-icon>
+    </div>
+
+    <span lwc:if={isTruncationSign} class="truncation">...</span>
+    <span lwc:if={isPageNumber}>{pageNumber}</span>
+  </div>
+</template>

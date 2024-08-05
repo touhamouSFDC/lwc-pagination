@@ -1,0 +1,13 @@
+<template>
+  <template lwc:if={isCompact}>
+    <c-compact-pagination current-page={currentPage} total-pages={totalPages} page-number-format={compactPageNumberFormat}> </c-compact-pagination>
+  </template>
+
+  <template lwc:elseif={isExtended}>
+    <c-extended-pagination total-pages={totalPages} current-page={currentPage}></c-extended-pagination>
+  </template>
+
+  <template lwc:elseif={isProgressive}>
+    <c-progressive-reveal-pagination total-pages={totalPages} current-page={currentPage}></c-progressive-reveal-pagination>
+  </template>
+</template>
