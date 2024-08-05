@@ -2,6 +2,11 @@
 
 Client-side pagination plays a crucial role in enhancing the user experience and performance of web applications, and here we offer reusable pagination components each with a distinct style to suit different use cases. It enhances user experience by providing intuitive navigation for large datasets, featuring previous/next controls, numeric page indicators, and page size configuration. Built using LWC, it ensures optimal performance and usability across devices.
 
+This solution offers 3 types of pagination
+- Compact Pagination (with 3 variants: no numbers, with current page number & with current page of total)
+- Extended Pagination
+- Progressive Reveal Pagination
+
 ## Demo
 
 ### Compact Pagination
