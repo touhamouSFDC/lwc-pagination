@@ -57,6 +57,11 @@ https://github.com/user-attachments/assets/9c315f5a-754a-4582-8ec0-4036cce8fb34
    ```bash
    https://github.com/touhamouSFDC/lwc-pagination.git
 
+2. Deploy metadata using sf command:
+
+   ```bash
+   sf project deploy start -x ./manifest/package.xml
+
 ## License
 
 This project is licensed under the MIT License.
