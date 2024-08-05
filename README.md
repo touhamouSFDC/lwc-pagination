@@ -32,23 +32,23 @@ Available public Properties are described in the table below
 
 #### Compact pagination with no page number
 
-![Alt text](/assets/compactPagination.gif)
+https://github.com/user-attachments/assets/32bee79f-7dcd-4047-b068-61bd5932c217
 
 #### Compact pagination with page number
 
-![Alt text](/assets/compactPaginationWithPageNumber.gif)
+https://github.com/user-attachments/assets/0d62fa24-00aa-45f7-aa5f-dfcbb052a477
 
 #### Compact pagination with page number of total pages
 
-![Alt text](/assets/compactPaginationWithPagNumberOfTotalPages.gif)
+https://github.com/user-attachments/assets/62428f1a-20f5-4f1f-a8c1-1942d67abe82
 
 ### Extended Pagination
 
-![Alt text](/assets/extendedPagination.gif)
+https://github.com/user-attachments/assets/cc2c0b93-54ca-4086-9b55-161480c67bb0
 
 ### Progressive Reveal Pagination
 
-![Alt text](/assets/progressivePagination.gif)
+https://github.com/user-attachments/assets/9c315f5a-754a-4582-8ec0-4036cce8fb34
 
 ## Getting Started
 
