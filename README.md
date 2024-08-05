@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/cc2c0b93-54ca-4086-9b55-161480c67bb0
 
 ### Progressive Reveal Pagination
 
-https://github.com/user-attachments/assets/9c315f5a-754a-4582-8ec0-4036cce8fb34
+https://github.com/user-attachments/assets/6d9b136e-1af8-4a05-82a0-f02fb58938af
 
 ### Context
 
