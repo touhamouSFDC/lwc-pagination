@@ -8,7 +8,7 @@ Client-side pagination plays a crucial role in enhancing the user experience and
 - The display can have different variations: Extended view, compact view, allow navigation buttons (next & previous), allow navigating to the first or last page, etc.
 - Each time a page or a navigation button is clicked, a custom event **pagenumberchanged** containing the page number is dispatched. The parent component can handle this by displaying the right data of the specified page.
 
-![Alt text](/assets/componentDiagram.png)
+![Alt text](/assets/componentDiagramFlow.png)
 
 ## Components
 
