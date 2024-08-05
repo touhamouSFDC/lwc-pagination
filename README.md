@@ -19,8 +19,8 @@ Client-side pagination plays a crucial role in enhancing the user experience and
     - First Variation : Show page number between the chevrons.
     - Second Variation : Show page number out of the total pages between the chevrons.
     - Third Variation : No page number is shown between the chevrons.
-- **extendedPagination** : Lightning Web Component, 
-- **progressiveRevealPagination** : Lightning Web Component, 
+- **extendedPagination** : Custom Lightning Web Component, presents an extended pagination view.
+- **progressiveRevealPagination** : Custom Lightning Web Component, presents a progressive pagination view.
 
 Available public Properties are described in the table below
 
