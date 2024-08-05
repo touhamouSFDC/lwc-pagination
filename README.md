@@ -13,23 +13,23 @@ This solution offers 3 types of pagination
 
 ##### Compact pagination with no page number
 
-https://github.com/user-attachments/assets/32bee79f-7dcd-4047-b068-61bd5932c217
+![compact-no-numbers](https://github.com/user-attachments/assets/d067b3ce-4c23-49f6-8e3a-32b90639fae7)
 
 ##### Compact pagination with page number
 
-https://github.com/user-attachments/assets/0d62fa24-00aa-45f7-aa5f-dfcbb052a477
+![compact-with-page-number](https://github.com/user-attachments/assets/a5aeb977-ebe3-40b7-ac13-ccf5f5592d5a)
 
 ##### Compact pagination with page number of total pages
 
-https://github.com/user-attachments/assets/62428f1a-20f5-4f1f-a8c1-1942d67abe82
+![compact-with-total](https://github.com/user-attachments/assets/d3159f13-68de-4077-b84b-a2e91f714053)
 
 ### Extended Pagination
 
-https://github.com/user-attachments/assets/cc2c0b93-54ca-4086-9b55-161480c67bb0
+![extended-pagination](https://github.com/user-attachments/assets/5277d552-c336-4f69-88a6-5e094c71a667)
 
 ### Progressive Reveal Pagination
 
-https://github.com/user-attachments/assets/6d9b136e-1af8-4a05-82a0-f02fb58938af
+![progressive-reveal-1](https://github.com/user-attachments/assets/354860cc-3750-4454-bb2f-69ed8b2f160e)
 
 ### Context
 
