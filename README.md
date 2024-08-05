@@ -44,12 +44,12 @@ https://github.com/user-attachments/assets/6d9b136e-1af8-4a05-82a0-f02fb58938af
 ### Lightning Web Component
 
 - **paginationMaster** : Custom Lightning Web Component, this LWC contains sections to render the desired pagination variation based on input variables passed to this component.
-- **compactPagination** : Custom Lightning Web Component, represent a pagination with chevrons to navigate to the next or previous pages, it has three ways on how to show the page number:
-    - First Variation : Show page number between the chevrons.
-    - Second Variation : Show page number out of the total pages between the chevrons.
-    - Third Variation : No page number is shown between the chevrons.
-- **extendedPagination** : Custom Lightning Web Component, presents an extended pagination view.
-- **progressiveRevealPagination** : Custom Lightning Web Component, presents a progressive pagination view.
+    - **compactPagination** : Custom Lightning Web Component, represent a pagination with chevrons to navigate to the next or previous pages, it has three ways on how to show the page number:
+        - First Variation : Show page number between the chevrons.
+        - Second Variation : Show page number out of the total pages between the chevrons.
+        - Third Variation : No page number is shown between the chevrons.
+     - **extendedPagination** : Custom Lightning Web Component, presents an extended pagination view.
+     - **progressiveRevealPagination** : Custom Lightning Web Component, presents a progressive pagination view.
 
 Available public Properties are described in the table below
 
