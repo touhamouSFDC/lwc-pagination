@@ -2,6 +2,30 @@
 
 Client-side pagination plays a crucial role in enhancing the user experience and performance of web applications, and here we offer reusable pagination components each with a distinct style to suit different use cases. It enhances user experience by providing intuitive navigation for large datasets, featuring previous/next controls, numeric page indicators, and page size configuration. Built using LWC, it ensures optimal performance and usability across devices.
 
+## Demo
+
+### Compact Pagination
+
+##### Compact pagination with no page number
+
+https://github.com/user-attachments/assets/32bee79f-7dcd-4047-b068-61bd5932c217
+
+##### Compact pagination with page number
+
+https://github.com/user-attachments/assets/0d62fa24-00aa-45f7-aa5f-dfcbb052a477
+
+##### Compact pagination with page number of total pages
+
+https://github.com/user-attachments/assets/62428f1a-20f5-4f1f-a8c1-1942d67abe82
+
+### Extended Pagination
+
+https://github.com/user-attachments/assets/cc2c0b93-54ca-4086-9b55-161480c67bb0
+
+### Progressive Reveal Pagination
+
+https://github.com/user-attachments/assets/9c315f5a-754a-4582-8ec0-4036cce8fb34
+
 ### Context
 
 - Build a reusable pagination component that accepts the page numbers as input, display them in different variation, and allow for a navigation.
@@ -10,7 +34,7 @@ Client-side pagination plays a crucial role in enhancing the user experience and
 
 ![Alt text](/assets/componentDiagramFlow.png)
 
-## Components
+## Core Components
 
 ### Lightning Web Component
 
@@ -26,29 +50,10 @@ Available public Properties are described in the table below
 
 ![Alt text](/assets/propertiesTable.png)
 
-## Demo
+## Example
 
-### Compact Pagination
-
-#### Compact pagination with no page number
-
-https://github.com/user-attachments/assets/32bee79f-7dcd-4047-b068-61bd5932c217
-
-#### Compact pagination with page number
-
-https://github.com/user-attachments/assets/0d62fa24-00aa-45f7-aa5f-dfcbb052a477
-
-#### Compact pagination with page number of total pages
-
-https://github.com/user-attachments/assets/62428f1a-20f5-4f1f-a8c1-1942d67abe82
-
-### Extended Pagination
-
-https://github.com/user-attachments/assets/cc2c0b93-54ca-4086-9b55-161480c67bb0
-
-### Progressive Reveal Pagination
-
-https://github.com/user-attachments/assets/9c315f5a-754a-4582-8ec0-4036cce8fb34
+- contacts (LWC) is an example of usage of the pagination component. The idea is to simulate displaying a large number of contacts, and handle all the navigation interactions with the pagination solution.
+- In this example, we're mocking the server-side call to get the relevant page data.
 
 ## Getting Started
 
